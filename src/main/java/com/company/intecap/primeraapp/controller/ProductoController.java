@@ -21,7 +21,7 @@ public class ProductoController {
         Producto p2 = new Producto(2, "Producto 2", "Descripcion 2", 200.0);
         Producto p3 = new Producto(3, "Producto 3", "Descripcion 3", 300.0);
         Producto p4 = new Producto(4, "Producto 4", "Descripcion 4", 400.0);
-        
+
         //agregar los productos a la lista
         List<Producto> productos = List.of(p1, p2, p3, p4);
 
